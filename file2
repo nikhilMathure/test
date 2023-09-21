@@ -1,0 +1,2 @@
+~
+[200~f you run this code, you’ll get a console log, something like: “Gollum said: They are young. They are tender. They are nice. Yes, they are. Eat them. Eat them!”  What’s happened is you created a JavaScript program that used the browser API (specifically, the fetch API), to issue an HTTP call against the server that lives at https://the-one-api.dev. That is a REST API, which means it follows certain architectural conventions.
