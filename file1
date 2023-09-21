@@ -6,7 +6,7 @@
   }
 })
 
-  const quotes = await rawQuotes.json();
+  <h1>const quotes = await rawQuotes.json();</h1>
   const quote = quotes.docs[Math.floor(Math.random() *  quotes?.docs?.length)];
 
   const rawCharacters = await   fetch('https://the-one-api.dev/v2/character?_id=' + quote.character, { headers: headers })
